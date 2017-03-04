@@ -1,0 +1,14 @@
+- text: "Domov"
+  url: "/"
+
+- text: "O mne"
+  url: "/about-me/"
+
+- text: "Volno-časové aktivity"
+  url: "/activities/"
+
+- text: "Projekty"
+  url: "/projects/"
+
+- text: "Webové publikovanie"
+  url: "/web-publishing/"

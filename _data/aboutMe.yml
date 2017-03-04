@@ -1,0 +1,14 @@
+name:
+  first: "Michal"
+  last: "Dolnák"
+birth:
+  day: "27"
+  month: "05"
+  year: "1996"
+birthplace: "Bratislava"
+address:
+  street: "Kubačova 7"
+  postalCode: "831 06"
+  city: "Bratislava"
+status: "Single"
+
