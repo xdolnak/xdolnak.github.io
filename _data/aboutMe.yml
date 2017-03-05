@@ -11,4 +11,66 @@ address:
   postalCode: "831 06"
   city: "Bratislava"
 status: "Single"
-
+educations:
+  - faculty: "Faculty of Informatics and Information technologies of the Slovak University of Technology Bratislava"
+    program: "Informatics"
+    since: "2014"
+    until: "yet"
+    descriptions:
+      - line: "Focused on data structures and algorithms, design of information systems and software engineering"
+  - faculty: "Gymnasium Hubeného 23 in Bratislava"
+    program: "Foreign languages"
+    since: "2006"
+    until: "2014"
+    descriptions:
+      - line: "Focused on English and German languages"
+workExperiences:
+  - name: "Java Junior developer"
+    employer: "Creative Web s.r.o."
+    since: "06/2016"
+    until: "yet"
+    descriptions:
+      - line: "Development of web applications using Java and Groovy in framework Grails"
+      - line: "Implementation of automated tests in frameworks Spock and Geb"
+      - line: "Frontend development in Angular2 using HTML, CSS, typescript and javascript"
+      - line: "Additional used technologies include PostgreSql, Hibernate, Selenium, lxc containers"
+  - name: "Administration assistant"
+    employer: "Global Blue Slovakia"
+    since: "07/2015"
+    until: "09/2015"
+    descriptions:
+      - line: "Writing various data into internal systems using Access databases and Excel"
+      - line: "Validation of received forms/documents with received data"
+      - line: "Forms scanning"
+      - line: "Forms archiving"
+activities:
+  - name: "IAESTE Slovakia"
+    position: "Member of local committee"
+    since: "04/2016"
+    until: "yet"
+    descriptions:
+          - line: "Development of new web applications in Spring, Angular 2 and Grails"
+          - line: "Data exports, support and monitoring of existing IT systems"
+          - line: "Organization planning of tournaments for the members of the local committee"
+          - line: "Participation in the organization planning of carrier fairs, workshops and summer program for internship students"
+computerSkills:
+  - name: "Java"
+    level: "advanced"
+  - name: "Groovy"
+    level: "advanced"
+  - name: "HTML, CSS"
+    level: "advanced"
+  - name: "javascript, typescript"
+    level: "advanced"
+  - name: "C, C++"
+    level: "basic"
+certificates:
+  - name: "IELTS-2013 exam, score 7.5 (level C1-C2)"
+  - name: "Driving license category B"
+languages:
+  - name: "Slovak"
+    level: "C2"
+  - name: "English"
+    level: "C1"
+  - name: "German"
+    level: "A2"

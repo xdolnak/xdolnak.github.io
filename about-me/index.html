@@ -2,18 +2,119 @@
 layout: main
 ---
 
-{% include heading.html title="Profil" subTitle="Základné informácie" %}
+{% include heading.html title="My profile" subTitle="Complex information about me" %}
 
 {% include basic-info.html %}
-
+<!--{% for link in site.data.pages %}
+<li><a href="{{link.url}}">{{link.text}}</a></li>
+{% endfor %}-->
 <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-3">
-    
+
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <h3 class="text-center">Work experience</h3>
+    <ul>
+      {% for experience in site.data.aboutMe.workExperiences %}
+      <li class="no-dot">
+        <div class="border-smoke col-xs-12">
+          <h4>{{experience.name}}</h4>
+          <h5>{{experience.employer}}</h5>
+          <h5>{{experience.since}} - {{experience.until}}</h5>
+          <ul class="padding-left-small">
+            {% for description in experience.descriptions %}
+            <li>
+              <h6>{{description.line}}</h6>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-3">
-    <p>Activites</p>
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <h3 class="text-center">Education</h3>
+    <ul>
+      {% for education in site.data.aboutMe.educations %}
+      <li class="no-dot">
+        <div class="border-smoke col-xs-12">
+          <h4>{{education.faculty}}</h4>
+          <h5>Program - {{education.program}}</h5>
+          <h5>{{education.since}} - {{education.until}}</h5>
+          {% for description in education.descriptions %}
+          <h6>{{description.line}}</h6>
+          {% endfor %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-3">
-    <p>About-me</p>
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <h3 class="text-center">Extracurricular activity</h3>
+    <ul>
+      {% for activity in site.data.aboutMe.activities %}
+      <li class="no-dot">
+        <div class="border-smoke col-xs-12">
+          <h4>{{activity.name}}</h4>
+          <h5>{{activity.position}}</h5>
+          <h5>{{activity.since}} - {{activity.until}}</h5>
+          {% for description in activity.descriptions %}
+          <h6>{{activity.line}}</h6>
+          {% endfor %}
+          <ul class="padding-left-small">
+            {% for description in activity.descriptions %}
+            <li>
+              <h6>{{description.line}}</h6>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <h3 class="text-center">Language</h3>
+    <ul>
+      <div class="border-smoke col-xs-12">
+        {% for language in site.data.aboutMe.languages %}
+        {% if language.name contains 'English' %}
+        <a href="files/cv.pdf"><h5>{{language.name}} - {{language.level}}</h5></a> <!--TODO change me to certificate-->
+        {% else %}
+        <h5>{{language.name}} - {{language.level}}</h5>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </ul>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <h3 class="text-center">Certification</h3>
+    <ul>
+      <div class="border-smoke col-xs-12">
+        {% for certificate in site.data.aboutMe.certificates %}
+        {% if certificate.name contains 'IELTS' %}
+        <a href="files/cv.pdf"><h5>{{certificate.name}}</h5></a><!--TODO change me to certificate-->
+        {% else %}
+        <h5>{{certificate.name}}</h5>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </ul>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <h3 class="text-center">Computer Skill</h3>
+    <ul>
+      {% for skill in site.data.aboutMe.computerSkills %}
+      <h5>{{skill.name}} - {{skill.level}}</h5>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 alert-warning">
+    <a href="files/cv.pdf">
+      <h6>Here is a link to my cv in pdf form. Please keep in mind it might not be updated.</h6>
+    </a>
   </div>
 </div>
