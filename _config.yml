@@ -24,7 +24,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-paginate: 5 # TODO use this somewhere
+paginate_path: "/projects/page:num/"
+paginate: 4 # TODO use this somewhere
+
 # Build settings
 markdown: kramdown
 theme: minima

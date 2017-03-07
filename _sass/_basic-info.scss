@@ -4,21 +4,21 @@
   text-align: center;
   margin-bottom: 20px;
   img{
-    border: 1px solid whitesmoke;
+    border: 1px solid $color-smoke-white;
   }
 }
 .list-about-me{
   padding: 0;
 }
 .border-smoke {
-  border: 1px solid whitesmoke;
+  border: 1px solid $color-smoke-white;
 }
 .half-border-left-smoke {
-  border-left: 0.5px solid whitesmoke;
+  border-left: 0.5px solid $color-smoke-white;
   min-height: 50px;
 }
 .half-border-right-smoke {
-  border-right: 0.5px solid whitesmoke;
+  border-right: 0.5px solid $color-smoke-white;
   min-height: 50px;
 }
 
