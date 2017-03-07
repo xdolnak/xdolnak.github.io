@@ -25,7 +25,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 paginate_path: "/projects/page:num/"
-paginate: 4 # TODO use this somewhere
+paginate: 3 # TODO use this somewhere
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,10 @@
+.pagination{
+  width: 100%;
+  text-align: center;
+  span, em, a {
+    font-size: 2em;
+  }
+  a {
+    color: $color-red;
+  }
+}
