@@ -1,0 +1,40 @@
+---
+layout: main
+---
+<nav class="navbar navbar-default no-margin-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img class="logo" height="30" width="90" src="/images/navbar-logo.jpg"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        {% for link in site.data.pages %}
+        {% assign url = page.url | remove:'index.html' %}
+        {% if url == link.url %}
+        <li><a href="{{link.url}}" class="active">{{link.text}}</a></li>
+        {% else %}
+        <li><a href="{{link.url}}">{{link.text}}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid single-content hidden-xs">
+  <div class="bordered-box ">
+    <h1 class="text-center">{{page.title}}</h1>
+    <h2 class="text-center">{{page.subtitle}}</h2>
+    {{ content }}
+  </div>
+</div>
+<div class="alert-warning visible-xs">
+  <h2>
+      {{page.message}}
+  </h2>
+</div>

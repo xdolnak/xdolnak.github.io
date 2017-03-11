@@ -27,12 +27,17 @@ github_username:  jekyll
 paginate_path: "/projects/page:num/"
 paginate: 3 # TODO use this somewhere
 
+maps:
+  google:
+    api_key: AIzaSyDqDtU8xYCjk6cvIMF4ccEVkzsI_k9ohdw # TODO continue with google maps
+
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-maps
 exclude:
   - Gemfile
   - Gemfile.lock

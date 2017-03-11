@@ -1,0 +1,20 @@
+- title: "Home"
+  url: "#home"
+  location:
+    latitude: 48.157115
+    longitude: 17.055694
+- title: "School"
+  url: "#School"
+  location:
+    latitude: 48.1530717
+    longitude: 17.0678752
+- title: "Work"
+  url: "#work"
+  location:
+    latitude: 48.15945
+    longitude: 17.127080
+- title: "Permanent residence"
+  url : "#residence"
+  location:
+    latitude: 48.209250
+    longitude: 17.151095

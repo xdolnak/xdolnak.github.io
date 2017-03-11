@@ -1,0 +1,26 @@
+.single-content {
+  display: flex;
+  .bordered-box {
+    border: 30px solid pink;
+    height: 640px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pink-doily-bdr.png") 30;
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+      font-style: italic;
+    }
+    .single-content-wrapper{
+      margin-left: 10px;
+    }
+  }
+}
+
+
+.no-margin-bottom{
+  margin-bottom: 0;
+}

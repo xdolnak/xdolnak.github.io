@@ -1,0 +1,20 @@
+.navbar-default {
+  background-color: $color-white;
+  .navbar-brand {
+    background-color: $color-white;
+    .logo {
+      margin-bottom: 5px;
+    }
+  }
+  .navbar-right{
+    li {
+      border: 1px solid $color-smoke-white;
+    }
+    .active{
+      background-color: $color-dark-white;
+    }
+    li:hover{
+      background-color: $color-dark-white;
+    }
+  }
+}

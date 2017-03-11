@@ -10,6 +10,7 @@ address:
   street: "Kubačova 7"
   postalCode: "831 06"
   city: "Bratislava"
+
 status: "Single"
 educations:
   - faculty: "Faculty of Informatics and Information technologies of the Slovak University of Technology Bratislava"

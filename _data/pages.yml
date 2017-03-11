@@ -4,11 +4,14 @@
 - text: "About me"
   url: "/about-me/"
 
-- text: "Activities"
-  url: "/activities/"
-
 - text: "Projects"
   url: "/projects/"
 
 - text: "Web publishing"
   url: "/web-publishing/"
+
+- text: "My places"
+  url: "/my-places/"
+
+- text: "My music"
+  url: "/my-music/"
