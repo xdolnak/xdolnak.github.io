@@ -1,10 +1,10 @@
 ---
-title:  "New Ikariera"
+title:  "New Ikariera job portal"
 date:   2017-03-07
 important: "true"
 importance: 2
 order: 5
-description: "Project of e-shop, which should be used to sell products on vaious events like carrier fairs."
+description: "New implementation of job portal, which is used by IAESTE Czech Republic."
 ---
 #### Technology stack
 

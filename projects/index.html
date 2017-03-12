@@ -4,14 +4,14 @@ url: projects
 ---
 <div class="row">
   <div class="container-fluid">
-    <h3 class="text-center">My projects</h3>
-    {% for post in paginator.posts %}
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h4 class="text-center">{{post.order}}. {{post.title}}</h4>
-      <h5>{{post.description}}</h5>
-      <p>{{post.content}}</p>
-    </div>
-    {% endfor %}
+      <h3 class="text-center">My projects</h3>
+      {% for post in paginator.posts %}
+        <div class="col-xs-12 post">
+          <h4 class="text-left">{{post.title}}</h4>
+          <h5 class="text-left">{{post.description}}</h5>
+          <p>{{post.content}}</p>
+        </div>
+      {% endfor %}
   </div>
 </div>
 <!-- Pagination links -->

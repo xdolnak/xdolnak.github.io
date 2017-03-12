@@ -1,24 +1,19 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: info
 heading: 'This is my developer profile'
 url: ''
 ---
 
-<div class="container-fluid">
-    <h2 class="text-center">My main projects</h2>
-</div>
-
-<div class="container-fluid">
+<div class="container-fluid with-posts">
+  <h2 class="text-center">My main projects</h2>
   {% assign projects = (site.posts | where: "important" , "true" | sort: "importance") %}
   {% for post in projects %}
-  <div class="col-xs-12 col-sm-6 col-md-4">
-    <h4 class="text-center">{{post.importance}}. {{post.title}}</h4>
-    <h5>{{post.description}}</h5>
+  <div class="col-xs-12 post">
+    <h4 class="text-left">{{post.importance}}. {{post.title}}</h4>
+    <h5 class="text-left">{{post.description}}</h5>
     <p>{{post.content}}</p>
   </div>
   {% endfor %}
 </div>
+
 

@@ -1,0 +1,28 @@
+
+.with-posts {
+  background-image: url("../images/background-project.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  *{
+    color: $color-white;
+  }
+  h3{
+    font-size: 40px;
+  };
+  h5{
+    font-style: italic;
+  }
+  a{
+    text-decoration: underline;
+  }
+  .post {
+    border: 1px solid $color-smoke-white;
+    margin-bottom: 15px;
+  }
+}
+.web-publishing-post{
+  padding-left: 10px;
+  padding-right: 10px;
+}

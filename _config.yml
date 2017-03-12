@@ -25,11 +25,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 paginate_path: "/projects/page:num/"
-paginate: 3 # TODO use this somewhere
+paginate: 3
 
 maps:
   google:
-    api_key: AIzaSyDqDtU8xYCjk6cvIMF4ccEVkzsI_k9ohdw # TODO continue with google maps
+    api_key: AIzaSyDqDtU8xYCjk6cvIMF4ccEVkzsI_k9ohdw
 
 # Build settings
 markdown: kramdown

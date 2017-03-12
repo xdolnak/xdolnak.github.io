@@ -3,7 +3,20 @@ layout: with-posts
 url: web-publishing
 ---
 
+
 <div class="container-fluid">
   <h1 class="text-center">My project from web publishing</h1>
+  <div class="web-publishing-post post">
+    {% capture assign1 %}{% include Assignment1.md %}{% endcapture %}
+    {{ assign1 | markdownify }}
+  </div>
+  <div class="web-publishing-post post" style="display: none">
+    {% capture assign2 %}{% include Assignment2.md %}{% endcapture %}
+    {{ assign2 | markdownify }}
+  </div>
+  <div class="web-publishing-post post" style="display: none">
+    {% capture assign3 %}{% include Assignment3.md %}{% endcapture %}
+    {{ assign3 | markdownify }}
+  </div>
 </div>
 

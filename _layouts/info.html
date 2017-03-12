@@ -27,10 +27,10 @@ layout: main
   </div>
 </nav>
 
-<div class="container-fluid">
-  <h1 class="text-center">{{page.heading}}</h1>
+<div class="info">
+  <div class="container-fluid">
+    <h1 class="text-center">{{page.heading}}</h1>
+  </div>
+  {% include basic-info.html %}
 </div>
-
-{% include basic-info.html %}
-
 {{ content }}
