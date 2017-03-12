@@ -4,7 +4,7 @@
   text-align: center;
   margin-bottom: 20px;
   img{
-    border: 1px solid $color-smoke-white;
+    border: 1px transparent $color-smoke-white;
     border-radius: 50%;
   }
 }
@@ -23,6 +23,20 @@
 }
 .half-border-right-smoke {
   border-right: 0.5px solid $color-smoke-white;
+  min-height: 50px;
+}
+.border-smoke-teal {
+  border: 1px solid $color-teal;
+
+}
+.half-border-left-smoke-teal {
+  border-left: 0.5px solid $color-smoke-teal;
+  padding-top: 5px;
+  min-height: 50px;
+}
+.half-border-right-smoke-teal {
+  border-right: 0.5px solid $color-smoke-teal;
+  padding-top: 5px;
   min-height: 50px;
 }
 
