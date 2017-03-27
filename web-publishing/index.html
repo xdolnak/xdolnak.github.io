@@ -5,16 +5,23 @@ url: web-publishing
 
 
 <div class="container-fluid">
-  <h1 class="text-center">My project from web publishing</h1>
-  <div class="web-publishing-post post">
+  <h1 class="text-center">My projects from web publishing</h1>
+  <nav role="navigation" class="content">
+    <ul>
+      <li><a href="#post-one">Link to the first assignment</a></li>
+      <li><a href="#post-two">Link to the second assignment</a></li>
+      <li style="display: none"><a href="#post-three">Link to the third assignment</a></li>
+    </ul>
+  </nav>
+  <div id="post-one" class="web-publishing-post post">
     {% capture assign1 %}{% include Assignment1.md %}{% endcapture %}
     {{ assign1 | markdownify }}
   </div>
-  <div class="web-publishing-post post" style="display: none">
+  <div id="post-two" class="web-publishing-post post">
     {% capture assign2 %}{% include Assignment2.md %}{% endcapture %}
     {{ assign2 | markdownify }}
   </div>
-  <div class="web-publishing-post post" style="display: none">
+  <div id="post-three" class="web-publishing-post post" style="display: none">
     {% capture assign3 %}{% include Assignment3.md %}{% endcapture %}
     {{ assign3 | markdownify }}
   </div>

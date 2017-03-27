@@ -74,7 +74,7 @@ aboutMe.yml: General info about the user
       - name: "Java Junior developer"
         employer: "Creative Web s.r.o."
         since: "06/2016"
-        until: "yet"
+        until: "yet"****
         descriptions:
           - line: "Development of web applications using Java and Groovy in framework Grails"
           - line: "Implementation of automated tests in frameworks Spock and Geb"
