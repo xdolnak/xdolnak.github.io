@@ -6,8 +6,8 @@
 * I overlooked the fact we should only write from 10 to 15 pages.
 * I did not want to delete my extra work, so I send the whole document.
 * The document would not make sense if I deleted these extra pages.
-* I added two extra figures to my thesis in order to meet requirements
-* I changed the look of annotation, because I became frustrated with adjusting this page to my original
+* I added two extra figures to my thesis in order to meet requirements.
+* I changed the look of annotation, because I became frustrated with adjusting this page to my original.
 
 #### Our task was to write a document using Docbook
 
