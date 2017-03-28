@@ -5,7 +5,7 @@
 * I rewrote my whole bachelor thesis from Word to Docbook.
 * I overlooked the fact we should only write from 10 to 15 pages.
 * I did not want to delete my extra work, so I send the whole document.
-* The document would not make sense if I deleted these pages.
+* The document would not make sense if I deleted these extra pages.
 
 #### Our task was to write a document using Docbook
 
